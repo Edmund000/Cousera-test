@@ -1,0 +1,307 @@
+
+*{
+    box-sizing: border-box;
+}
+
+
+
+.Our-Menu
+{text-align: center;
+cursor: pointer;
+font-family: Arial;
+font-style: italic;
+}
+
+
+.body {
+    margin: 0%;
+}
+
+
+.box
+{
+background-color: rgb(158, 166, 166);
+border-color: black; border-style: solid;
+border: 3px solid; 
+padding-top: 0px;
+padding-bottom: 10px;
+padding-left: 10px;
+padding-right: 0px;
+margin-top: 10px;
+
+
+cursor: pointer; 
+
+
+}
+.box2
+{background-color: rgb(158, 166, 166);
+border-color: black; border-style: solid;
+border: 3px solid; 
+padding-top: 0px;
+padding-bottom: 10px;
+padding-left: 10px;
+padding-right: 0px;
+margin-top: 10px;
+cursor: pointer; }
+
+
+.box3
+{background-color: rgb(158, 166, 166);
+border-color: black; border-style: solid;
+border: 3px solid; 
+padding-top: 0px;
+padding-bottom: 10px;
+padding-left: 10px;
+padding-right: 0px;
+margin-top: 10px;
+cursor: pointer; }
+
+
+
+.row
+{
+    
+   padding: 10px;
+    width: 100%;
+    
+}
+
+
+.section-title1
+{
+font-family: Arial;
+font-weight: bold;
+text-align: center;
+background-color: rgb(237, 137, 137);
+cursor: pointer;
+width: 130px;
+padding-top: 5px;
+padding-bottom: 5px;
+padding-left: 5px;
+padding-right: 5px;
+border-color: black;
+border-style: solid;
+float: right;
+
+
+}
+
+.section-title2
+{
+font-family: Arial;
+color: aliceblue;
+font-weight: bold;
+text-align: center;
+background-color: brown;
+cursor: pointer;
+width: 130px;
+
+padding-top: 5px;
+padding-bottom: 5px;
+padding-left: 5px;
+padding-right: 5px;
+border-color: black;
+border-style: solid;
+float: right;
+
+}
+
+.section-title3
+{
+font-family: Arial;
+font-weight: bold;
+color: rgb(5, 5, 5);
+text-align: center;
+background-color: rgb(187, 184, 111);
+cursor: pointer;
+width: 130px;
+padding-top: 5px;
+padding-bottom: 5px;
+padding-left: 5px;
+padding-right: 5px;
+border-color: black;
+border-style: solid;
+float: right;
+
+}
+
+
+
+
+.p
+{
+    font-family: Arial;
+    font-size: medium;
+    text-align: center;
+    padding-top: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 30px;
+    
+
+}
+
+.row{color: base;} /* base styles */
+
+@media (min-width: 837px) and (max-width: 946px) {
+
+.box2 {
+    width: 47%;
+    position: relative;
+   right: -53%;
+   top: -200px;
+}
+
+.box {
+    width: 49%;
+    position: relative;
+   left: -0%;
+   
+   
+}
+.box3 {
+    
+    position: relative;
+    top: -200px;}
+
+}
+
+
+@media (min-width: 946px) and (max-width: 986px) {
+
+.box2 {
+    width: 47%;
+    position: relative;
+   right: -53%;
+   top: -200px;
+}
+
+.box {
+    width: 49%;
+    position: relative;
+   left: -0%;
+   height: 190px;
+   
+   
+}
+.box3 {
+    
+    position: relative;
+    top: -200px;}
+
+}
+
+@media (min-width: 986px) and (max-width: 1050px) {
+
+    .box2 {
+        width: 47%;
+        position: relative;
+       right: -53%;
+       top: -180px;
+    }
+    
+    .box {
+        width: 49%;
+        position: relative;
+       left: -0%;
+       
+       
+       
+    }
+    .box3 {
+        
+        position: relative;
+        top: -170px;}
+    
+    }
+
+
+
+
+@media (min-width: 1050px) and (max-width: 1258px) {
+
+    .box2 {
+        width: 31%;
+        position: relative;
+       right: -34.4%;
+       top: -213px;
+
+       
+       
+    }
+    
+    .box {
+        width: 31%;
+        position: relative;
+       left: -0%;
+       top: 5px;
+       
+       
+    }
+    .box3 {
+        width: 31%;
+        position: relative;
+        top: -430px;
+       left: 69%;
+    }
+    }
+
+
+    @media (min-width: 1258px) and (max-width: 1485px) {
+
+        .box2 {
+            width: 31%;
+            position: relative;
+           right: -34.4%;
+           top: -194px;
+    
+           
+           
+        }
+        
+        .box {
+            width: 31%;
+            position: relative;
+           left: -0%;
+           top: 5px;
+           
+           
+        }
+        .box3 {
+            width: 31%;
+            position: relative;
+            top: -394px;
+           left: 69%;
+        }
+        }
+
+
+ 
+        @media (min-width: 1485px) and (max-width: 2040px) {
+
+            .box2 {
+                width: 31%;
+                position: relative;
+               right: -34.4%;
+               top: -177px;
+        
+               
+               
+            }
+            
+            .box {
+                width: 31%;
+                position: relative;
+               left: -0%;
+               top: 5px;
+               
+               
+            }
+            .box3 {
+                width: 31%;
+                position: relative;
+                top: -360px;
+               left: 69%;
+            }
+            }
